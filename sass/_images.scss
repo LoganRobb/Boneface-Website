@@ -1,0 +1,43 @@
+.homePageLogo{
+  margin: 20px auto;
+  width: 200px;
+  height: auto;
+  display: block;
+
+// position: relative;
+}
+.homePageBackground{
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.homePageBeers{
+  @include imageStyle(100%, auto, 0%);
+  // z-index: -1;
+  position: absolute;
+}
+@media screen and (max-width: 768px){
+
+  .homePageLogo{
+    margin: 30px;
+    width: 100px;
+    height: auto;
+  }
+  .homePageBackground{
+    z-index: -1;
+    position: absolute;
+    display: inline;
+  }
+
+
+}
+@media screen and (max-width: 375px){
+  .homePageLogo{
+    margin-left: 10px;
+    width: 70px;
+    height: auto;
+
+  }
+}

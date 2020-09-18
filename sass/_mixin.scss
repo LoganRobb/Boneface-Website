@@ -1,0 +1,20 @@
+@mixin imageStyle($w, $h, $m){
+  width: $w;
+  height: $h;
+  margin: $m;
+}
+
+@mixin textStyle($fs, $fw, $c, $ls){
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+  letter-spacing: $ls;
+}
+
+@mixin myContainers($w, $h, $m, $p, $b){
+  width: $w;
+  height: $h;
+  margin: $m;
+  padding: $p;
+  background: $b;
+}

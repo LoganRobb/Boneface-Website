@@ -1,0 +1,144 @@
+nav{
+  // margin-left: 500px;
+  // border: 1px solid red;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  margin: auto;
+}
+
+.homePageNav{
+  // display: inline-block;
+  // text-align: center;
+  list-style: none;
+  // margin-left: 200px;
+}
+
+.homePageHome {
+
+}
+
+.homePageList{
+  width: 23%;
+  display: inline-block;
+  margin-top: 50px;
+  // margin-left: 90px;
+  font-family: $copy;
+  font-weight: medium;
+
+  // border: 1px solid blue;
+}
+.homeNavBottom,.homeNavTop{
+  height: 50%;
+}
+.home{
+  width: 10%;
+  // border: 1px solid pink;
+  margin-right: 50px;
+  margin-left: 10%;
+}
+.reservations{
+  width: 25%;
+  // border: 1px solid blue;
+  margin-left: 10%;
+}
+.contact{
+  width: 20%;
+  // border: 1px solid pink;
+  margin-right: 50px;
+  margin-left: 10%;
+}
+.order{
+  width: 45%;
+  // border: 1px solid pink;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+a:link{
+
+}
+.homePageWordLink:link{
+  font-size: 130px;
+}
+
+.contactLinks{
+  color: black;
+}
+
+@media screen and (max-width: 768px){
+  nav{
+    // margin-left: 500px;
+    // border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin: auto;
+  }
+
+  .homePageNav{
+    // display: inline-block;
+    // text-align: center;
+    list-style: none;
+
+    // margin-left: 200px;
+
+  }
+
+  .homePageList{
+    width: 23%;
+    display: inline-block;
+    margin-top: 30px;
+    // margin-left: 90px;
+    font-family: $copy;
+    font-weight: medium;
+
+    // border: 1px solid blue;
+  }
+  .homeNavBottom,.homeNavTop{
+    height: 50%;
+  }
+  .home{
+    width: 10%;
+    // border: 1px solid pink;
+    margin-right: 50px;
+    margin-left: 10%;
+  }
+  .reservations{
+    width: 25%;
+    // border: 1px solid blue;
+    margin-left: 10%;
+  }
+  .contact{
+    width: 20%;
+    // border: 1px solid pink;
+    margin-right: 50px;
+    margin-left: 10%;
+  }
+  .order{
+    width: 45%;
+    // border: 1px solid pink;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+}
+@media screen and (max-width: 375px){
+  nav{
+    // margin-left: 500px;
+    // border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin: auto;
+  }
+}

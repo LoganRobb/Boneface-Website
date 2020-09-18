@@ -1,0 +1,65 @@
+.row{
+  @include myContainers(100%,300px,0,10px,none);
+  // border: 1px solid pink;
+}
+
+.row1{
+  @include myContainers(100%,550px,0,10px,none);
+  // border: 1px solid red;
+}
+
+.clearfix:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+.col{
+  float: left;
+}
+.col-1{
+  width: 100%/12*1;
+}
+.col-2{
+  width: 100%/12*2;
+}
+.col-3{
+  width: 100%/12*3;
+}
+.col-4{
+  width: 100%/12*4;
+}
+.col-5{
+  width: 100%/12*5;
+  // border: 1px solid blue;
+  margin-left: 50px;
+}
+.col-6{
+  width: 100%/12*6;
+}
+.col-7{
+  width: 100%/12*7;
+}
+.col-8{
+  width: 100%/12*8;
+}
+.col-9{
+  width: 100%/12*9;
+  // border: 1px solid yellow;
+}
+.col-10{
+  width: 100%/12*10;
+}
+.col-11{
+  width: 100%/12*11;
+}
+.col-12{
+  width: 100%/12*12;
+}
+header{
+  width: 100%;
+  // border: 1px solid yellow;
+}
+.headerLogo{
+    // border: 1px solid pink;
+    // position: relative;
+}

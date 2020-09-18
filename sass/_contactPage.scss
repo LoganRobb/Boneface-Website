@@ -1,0 +1,48 @@
+.contactTitle{
+  font-family: $copyBold;
+  font-size: 50px;
+}
+
+.contactPhone{
+  color: $green;
+}
+
+.contactMap{
+  @include imageStyle(40%, auto, none);
+  // border: 1px solid green;
+  float: left;
+}
+
+.contactWords{
+  @include myContainers(25%, auto, 5%, none, none);
+  // border: 1px solid pink;
+  float: left;
+  color: black;
+}
+
+.holder {
+  padding-top: 120px;
+}
+@media screen and (max-width: 768px){
+  .contactMap{
+    @include imageStyle(50%, auto, none);
+    // border: 1px solid green;
+    float: left;
+  }
+  .contactWords{
+    @include myContainers(100%, auto, 5%, none, none);
+    // border: 1px solid pink;
+    float: left;
+    color: black;
+  }
+  .col-sm-12{
+    width: 100%/12*12;
+  }
+}
+@media screen and (max-width: 375px){
+  .contactMap{
+    @include imageStyle(5%, none, none);
+    // border: 1px solid green;
+    // float: left;
+  }
+}

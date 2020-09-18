@@ -1,0 +1,482 @@
+.homePageList {
+  color: white; }
+
+.homePageStory {
+  width: 80%;
+  height: 40%;
+  margin: 20%;
+  padding: 10px;
+  background: none;
+  margin-right: 20px;
+  text-align: center; }
+
+h1 {
+  color: #59853B;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 40px; }
+
+p {
+  font-family: "Cabin", sans-serif; }
+
+.homePageBottomText {
+  font-size: 20px;
+  font-weight: none;
+  color: black;
+  letter-spacing: none;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center; }
+
+.row {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 10px;
+  background: none; }
+
+.row1 {
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 10px;
+  background: none; }
+
+.clearfix:after {
+  clear: both;
+  display: table;
+  content: ""; }
+
+.col {
+  float: left; }
+
+.col-1 {
+  width: 8.3333333333%; }
+
+.col-2 {
+  width: 16.6666666667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.3333333333%; }
+
+.col-5 {
+  width: 41.6666666667%;
+  margin-left: 50px; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.3333333333%; }
+
+.col-8 {
+  width: 66.6666666667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.3333333333%; }
+
+.col-11 {
+  width: 91.6666666667%; }
+
+.col-12 {
+  width: 100%; }
+
+header {
+  width: 100%; }
+
+nav {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  margin: auto; }
+
+.homePageNav {
+  list-style: none; }
+
+.homePageList {
+  width: 23%;
+  display: inline-block;
+  margin-top: 50px;
+  font-family: "Cabin", sans-serif;
+  font-weight: medium; }
+
+.homeNavBottom, .homeNavTop {
+  height: 50%; }
+
+.home {
+  width: 10%;
+  margin-right: 50px;
+  margin-left: 10%; }
+
+.reservations {
+  width: 25%;
+  margin-left: 10%; }
+
+.contact {
+  width: 20%;
+  margin-right: 50px;
+  margin-left: 10%; }
+
+.order {
+  width: 45%; }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px; }
+
+.homePageWordLink:link {
+  font-size: 130px; }
+
+.contactLinks {
+  color: black; }
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin: auto; }
+
+  .homePageNav {
+    list-style: none; }
+
+  .homePageList {
+    width: 23%;
+    display: inline-block;
+    margin-top: 30px;
+    font-family: "Cabin", sans-serif;
+    font-weight: medium; }
+
+  .homeNavBottom, .homeNavTop {
+    height: 50%; }
+
+  .home {
+    width: 10%;
+    margin-right: 50px;
+    margin-left: 10%; }
+
+  .reservations {
+    width: 25%;
+    margin-left: 10%; }
+
+  .contact {
+    width: 20%;
+    margin-right: 50px;
+    margin-left: 10%; }
+
+  .order {
+    width: 45%; }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 2px; } }
+@media screen and (max-width: 375px) {
+  nav {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin: auto; } }
+.homePageLogo {
+  margin: 20px auto;
+  width: 200px;
+  height: auto;
+  display: block; }
+
+.homePageBackground {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.homePageBeers {
+  width: 100%;
+  height: auto;
+  margin: 0%;
+  position: absolute; }
+
+@media screen and (max-width: 768px) {
+  .homePageLogo {
+    margin: 30px;
+    width: 100px;
+    height: auto; }
+
+  .homePageBackground {
+    z-index: -1;
+    position: absolute;
+    display: inline; } }
+@media screen and (max-width: 375px) {
+  .homePageLogo {
+    margin-left: 10px;
+    width: 70px;
+    height: auto; } }
+.homePageWordsContainer {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  font-family: "Staatliches", cursive; }
+
+.homePageWordsList {
+  font-size: 100px; }
+
+.HomePageStorySection {
+  width: 80%;
+  height: auto;
+  margin: none;
+  padding: none;
+  background: none; }
+
+.homePageCarbon {
+  width: 100%;
+  height: auto;
+  margin: none;
+  padding: none;
+  background: none; }
+
+.homePageHome {
+  background: url("../img/bonefacebackground.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.contactTitle {
+  font-family: "Cabin", regular;
+  font-size: 50px; }
+
+.contactPhone {
+  color: #59853B; }
+
+.contactMap {
+  width: 40%;
+  height: auto;
+  margin: none;
+  float: left; }
+
+.contactWords {
+  width: 25%;
+  height: auto;
+  margin: 5%;
+  padding: none;
+  background: none;
+  float: left;
+  color: black; }
+
+.holder {
+  padding-top: 120px; }
+
+@media screen and (max-width: 768px) {
+  .contactMap {
+    width: 50%;
+    height: auto;
+    margin: none;
+    float: left; }
+
+  .contactWords {
+    width: 100%;
+    height: auto;
+    margin: 5%;
+    padding: none;
+    background: none;
+    float: left;
+    color: black; }
+
+  .col-sm-12 {
+    width: 100%; } }
+@media screen and (max-width: 375px) {
+  .contactMap {
+    width: 5%;
+    height: none;
+    margin: none; } }
+.orderCloseButton {
+  width: 30px;
+  height: auto;
+  margin: 15px; }
+
+.orderCata {
+  background: whitesmoke;
+  width: 25%;
+  margin-left: 35px;
+  height: 250px;
+  padding: 20px; }
+
+.orderFood {
+  background: whitesmoke;
+  width: 35%;
+  margin-left: 35px;
+  height: 3000px;
+  padding: 20px; }
+
+.orderTotal {
+  background: whitesmoke;
+  width: 25%;
+  margin-left: 35px;
+  height: 1700px;
+  padding: 20px; }
+
+.orderPageContainers {
+  margin: auto; }
+
+h4 {
+  font-family: "Cabin", regular;
+  color: #59853B;
+  font-size: 35px; }
+
+.foodItem {
+  width: 100%;
+  height: auto; }
+
+.foodItemImage {
+  width: 100%;
+  margin: 5px; }
+
+.orderCataButton {
+  color: Grey;
+  width: 20%;
+  margin: 5%; }
+
+h5 {
+  font-family: "Cabin", regular;
+  font-size: 20px; }
+
+.money {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .orderCataButton {
+    color: Grey;
+    width: 80%;
+    height: 33px;
+    margin: 2%; }
+
+  .orderCata {
+    background: whitesmoke;
+    width: 80%;
+    margin-left: 70px;
+    height: 450px;
+    padding: 20px;
+    margin-bottom: 35px; }
+
+  .orderFood {
+    background: whitesmoke;
+    width: 80%;
+    margin-left: 70px;
+    height: 2670px;
+    padding: 20px; }
+
+  .orderTotal {
+    background: whitesmoke;
+    width: 80%;
+    margin-left: 70px;
+    height: 1700px;
+    padding: 20px;
+    margin-top: 50px; } }
+@media screen and (max-width: 375px) {
+  .orderCataButton {
+    color: Grey;
+    width: 80%;
+    height: 33px;
+    margin: 2%; }
+
+  .orderCata {
+    background: whitesmoke;
+    width: 73%;
+    margin-left: 30px;
+    height: 350px;
+    padding: 20px;
+    margin-bottom: 35px; }
+
+  .orderFood {
+    background: whitesmoke;
+    width: 73%;
+    margin-left: 30px;
+    height: 1450px;
+    padding: 20px; }
+
+  .orderTotal {
+    background: whitesmoke;
+    width: 73%;
+    margin-left: 30px;
+    height: 1000px;
+    padding: 20px;
+    margin-top: 50px; } }
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background: white; }
+
+h2 {
+  font-family: "Cabin", regular;
+  color: #59853B; }
+
+h3 {
+  font-family: "Cabin", regular; }
+
+html {
+  background: url("images/yourimage.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+fieldset {
+  border: 0; }
+
+label {
+  display: block;
+  margin: 30px 0 0 0; }
+
+.overflow {
+  height: 150px; }
+
+.ResTableFont {
+  font-family: "Cabin", regular; }
+
+.resPageText {
+  float: right;
+  height: 700px;
+  font-size: 20px;
+  padding-top: 30px; }
+
+.formTopText {
+  padding-left: 0px;
+  text-align: center; }
+
+.ResPageForm {
+  display: block; }
+
+form {
+  width: 50%;
+  margin: auto; }
+
+@media screen and (max-width: 768px) {
+  .resPageText {
+    height: 700px;
+    font-size: 20px;
+    padding-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    padding-right: 10%; }
+
+  .col-sm-12 {
+    width: 91.6666666667%; }
+
+  form {
+    width: 100%;
+    margin: auto; } }
+
+/*# sourceMappingURL=style.css.map */

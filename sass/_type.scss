@@ -1,0 +1,26 @@
+.homePageList{
+  color: white;
+}
+.homePageStory{
+  @include myContainers(80%,40%,20%,10px,none);
+  margin-right: 20px;
+  text-align: center;
+
+
+}
+h1{
+  color: $green;
+  font-family: $bold;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 40px;
+}
+p{
+  font-family: $copy;
+}
+.homePageBottomText{
+  @include textStyle(20px,none,black,none);
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}

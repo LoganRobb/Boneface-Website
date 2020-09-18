@@ -1,0 +1,89 @@
+@import 'reset';
+@import "variables";
+@import 'mixin';
+@import "type";
+
+@import "container";
+@import "nav";
+@import "images";
+@import 'mainPage';
+@import 'contactPage';
+@import 'orderPage';
+
+
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+body{
+  background: white;
+}
+h2{
+  font-family: $copyBold;
+  color: $green;
+}
+h3{
+  font-family: $copyBold
+}
+
+html {
+    background: url('images/yourimage.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 150px;
+    }
+.ResTableFont{
+  font-family: $copyBold;
+}
+.resPageText{
+  float: right;
+  height: 700px;
+  font-size: 20px;
+  padding-top: 30px;
+
+}
+.formTopText{
+  padding-left: 0px;
+  text-align: center;
+}
+.ResPageForm{
+  // width: 45%;
+  // padding: 10px 100px;
+  display: block;
+  // border: 1px solid red;
+}
+form{
+  width: 50%;
+  margin: auto;
+  // border: 1px solid red;
+}
+@media screen and (max-width: 768px){
+  .resPageText{
+    height: 700px;
+    font-size: 20px;
+    padding-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    padding-right: 10%;
+  }
+  .col-sm-12{
+    width: 100%/12*11;
+  }
+  form{
+    width: 100%;
+    margin: auto;
+    // border: 1px solid red;
+  }
+}

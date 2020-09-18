@@ -1,0 +1,122 @@
+.orderCloseButton{
+  width: 30px;
+  height: auto;
+  margin: 15px;
+}
+
+.orderCata{
+  background: whitesmoke;
+  width: 25%;
+  margin-left: 35px;
+  height: 250px;
+  padding: 20px;
+}
+
+.orderFood{
+  background: whitesmoke;
+  width: 35%;
+  margin-left: 35px;
+  height: 3000px;
+  padding: 20px;
+}
+
+.orderTotal{
+  background: whitesmoke;
+  width: 25%;
+  margin-left: 35px;
+  height: 1700px;
+  padding: 20px;
+}
+
+.orderPageContainers{
+  margin: auto;
+}
+h4{
+  font-family: $copyBold;
+  color: $green;
+  font-size: 35px;
+}
+.foodItem{
+  width: 100%;
+  height: auto;
+}
+.foodItemImage{
+  width: 100%;
+  margin: 5px;
+}
+.orderCataButton{
+  color: Grey;
+  width: 20%;
+  margin: 5%
+}
+h5{
+  font-family: $copyBold;
+  font-size: 20px;
+}
+.money{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  .orderCataButton{
+    color: Grey;
+    width: 80%;
+    height: 33px;
+    margin: 2%;
+  }
+  .orderCata{
+    background: whitesmoke;
+    width: 80%;
+    margin-left: 70px;
+    height: 450px;
+    padding: 20px;
+    margin-bottom: 35px;
+  }
+  .orderFood{
+    background: whitesmoke;
+    width: 80%;
+    margin-left: 70px;
+    height: 2670px;
+    padding: 20px;
+  }
+  .orderTotal{
+    background: whitesmoke;
+    width: 80%;
+    margin-left: 70px;
+    height: 1700px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+}
+@media screen and (max-width: 375px){
+  .orderCataButton{
+    color: Grey;
+    width: 80%;
+    height: 33px;
+    margin: 2%;
+  }
+  .orderCata{
+    background: whitesmoke;
+    width: 73%;
+    margin-left: 30px;
+    height: 350px;
+    padding: 20px;
+    margin-bottom: 35px;
+  }
+  .orderFood{
+    background: whitesmoke;
+    width: 73%;
+    margin-left: 30px;
+    height: 1450px;
+    padding: 20px;
+  }
+  .orderTotal{
+    background: whitesmoke;
+    width: 73%;
+    margin-left: 30px;
+    height: 1000px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,28 @@
+.homePageWordsContainer{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  font-family: $bold;
+}
+
+.homePageWordsList{
+  font-size: 100px;
+}
+.HomePageStorySection{
+  @include myContainers(80%, auto, none, none, none);
+}
+.homePageCarbon{
+  @include myContainers(100%, auto, none, none, none);
+}
+
+.homePageHome {
+    background: url('../img/bonefacebackground.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+// @media screen and (max-width: 768px){
+//
+// }
