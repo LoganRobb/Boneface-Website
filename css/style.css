@@ -446,6 +446,14 @@ label {
 .ResTableFont {
   font-family: "Cabin", regular; }
 
+.footer {
+  width: 100%; }
+
+.footerText {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  margin: auto; }
+
 .resPageText {
   float: right;
   height: 700px;

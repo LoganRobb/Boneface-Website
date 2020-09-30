@@ -47,6 +47,14 @@ fieldset {
 .ResTableFont{
   font-family: $copyBold;
 }
+.footer{
+  width: 100%;
+}
+.footerText{
+  text-align: center;
+  font-family: $copy;
+  margin: auto;
+}
 .resPageText{
   float: right;
   height: 700px;
